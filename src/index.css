@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Tetra";
+  src: url("./fonts/Tetra\ ITC\ Std\ Light.otf");
+}
+
+@layer base {
+  .App {
+    @apply px-[40px];
+  }
+  li {
+    @apply m-[4.875rem];
+    @apply cursor-pointer;
+  }
+}
